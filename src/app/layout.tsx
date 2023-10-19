@@ -17,9 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="h-screen">
+      <body className="h-screen w-screen">
         <NavBar/> 
-        <main className='h-[100%] overflow-y-scroll'>
+        <main className='h-[100%] w-full overflow-y-scroll'>
           {children}
         </main>
       </body>
